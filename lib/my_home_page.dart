@@ -33,8 +33,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: [
             Text('$_counter'),
-            ElevatedButton(onPressed: _incrementCounter, child: Text('Increment')),
-            ElevatedButton(onPressed: _decrementCounter, child: Text('decrement')),
+            ElevatedButton(onPressed: _incrementCounter, child: Text('+')),
+            ElevatedButton(onPressed: _decrementCounter, child: Text('-')),
             ],
         ),
       ),

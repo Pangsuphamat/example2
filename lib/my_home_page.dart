@@ -31,10 +31,11 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('$_counter'),
-            ElevatedButton(onPressed: _incrementCounter, child: Text('+')),
-            ElevatedButton(onPressed: _decrementCounter, child: Text('-')),
+            ElevatedButton(onPressed: _incrementCounter, child: Text('+',style: TextStyle(fontSize: 20,color: Colors.green),)),
+            ElevatedButton(onPressed: _decrementCounter, child: Text('-',style: TextStyle(fontSize: 20,color: Colors.red))),
             ],
         ),
       ),
